@@ -6,7 +6,7 @@ import (
 	"net"
 )
 
-func tcp() {
+func Tcp() {
 	addr, err := net.ResolveTCPAddr("tcp", ":8080")
 	if err != nil {
 		log.Fatal(err)

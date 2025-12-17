@@ -5,7 +5,7 @@ import (
 	"net"
 )
 
-func udp() {
+func Udp() {
 	conn, err := net.ListenPacket("udp", ":8080")
 
 	if err != nil {
